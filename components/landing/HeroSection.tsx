@@ -21,14 +21,6 @@ export default function HeroSection() {
       <div className="absolute bottom-10 left-[5%] w-[360px] h-[360px] rounded-full bg-[#10B981]/5 blur-3xl pointer-events-none" />
 
       <div className="relative z-10 w-full max-w-6xl mx-auto px-6 pt-24 pb-10">
-        {/* Eyebrow */}
-        <motion.div {...fadeUp(0)} className="flex justify-center mb-8">
-          <span className="badge-blue gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB] animate-pulse" />
-            Road Safety Intelligence · MVP 2026
-          </span>
-        </motion.div>
-
         {/* Headline */}
         <motion.h1
           {...fadeUp(0.08)}
